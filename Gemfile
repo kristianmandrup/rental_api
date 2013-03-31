@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.0.0.beta1'
+gem 'rails', '>= 3.2'
 gem 'rails-api'
 
 # main engines
