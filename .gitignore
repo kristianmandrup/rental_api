@@ -1,0 +1,20 @@
+.bundle/
+log/*.log
+pkg/
+
+spec/dummy/db/*.sqlite3
+spec/dummy/log/*.log
+spec/dummy/tmp/
+spec/dummy/public/
+spec/dummy/.sass-cache
+
+.DS_Store
+
+Gemfile.lock
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
